@@ -8,6 +8,7 @@ import java.util.List;
 
 public class Peliculas {
 
+    // Declarando atributos  
     protected String titulo;
     protected String autor;
     protected String añoedicion;
@@ -15,7 +16,9 @@ public class Peliculas {
     protected double precioBase;
     protected Soporte soporte;
 
-    public Peliculas(String titulo, String autor, String añoedicion, List<String> idioma, double precioBase, Soporte soporte) {
+    // Constructor
+    public Peliculas(String titulo, String autor, String añoedicion,
+            List<String> idioma, double precioBase, Soporte soporte) {
         this.titulo = titulo;
         this.autor = autor;
         this.añoedicion = añoedicion;
@@ -24,6 +27,7 @@ public class Peliculas {
         this.soporte = soporte;
     }
 
+    // Getters and Setters
     public Soporte getSoporte() {
         return soporte;
     }
@@ -73,6 +77,7 @@ public class Peliculas {
         this.precioBase = precioBase;
     }
 
+    // Metodo toString
     @Override
     public String toString() {
 

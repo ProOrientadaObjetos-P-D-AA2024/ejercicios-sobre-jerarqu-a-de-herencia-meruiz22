@@ -9,6 +9,7 @@ import java.util.List;
 
 public class DVD extends Peliculas {
     
+    // Declarando atributos 
     private String tipoCinta;
     private double calculaPrecioDVD;
     

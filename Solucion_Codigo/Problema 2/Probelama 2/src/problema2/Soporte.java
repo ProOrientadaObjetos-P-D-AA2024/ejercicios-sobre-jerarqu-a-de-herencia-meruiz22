@@ -4,10 +4,10 @@
  */
 package problema2;
 
-
 public class Soporte {
-   
-   private String tipo;
+
+    // Declarando atributos
+    private String tipo;
     private double capacidad;
 
     public Soporte(double capacidad) {
